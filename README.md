@@ -4,10 +4,10 @@ grafananotifier
 Grafana Notifier for Google Chrome
 
 ![
-](https://raw.github.com/aarabyan/grafanaNotifier/blob/master/grafanaNotifier.png)
+](https://raw.github.com/aarabyan/grafanaNotifier/master/grafanaNotifier.png)
 
 ![
-](https://raw.github.com/aarabyan/grafanaNotifier/blob/master/grafanaSettings.png)
+](https://raw.github.com/aarabyan/grafanaNotifier/master/grafanaSettings.png)
 
 Features: 
 
