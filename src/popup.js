@@ -24,7 +24,8 @@ $(document).ready(function() {
 			}
 		});
         $content.find('.dashboardUri').click(function () {
-            window.open(config['grafanabase'] +'dashboard/'+ $(this).text());
+            var url = $(this).attr('id') ? $(this).attr('id') : 'dashboard/' + $(this).text();
+            window.open(config['grafanabase'] + url);
         });
 	});
 

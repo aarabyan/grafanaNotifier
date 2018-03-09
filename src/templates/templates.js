@@ -35,8 +35,9 @@
             buffer += "\n	<tr class=\"";
             stack1 = depth0.state;
             stack1 = typeof stack1 === functionType ? stack1() : stack1;
-            buffer += escapeExpression(stack1) + "\">\n		<td class=\"dashboardUri\"><a href=\"\">";
-            stack1 = depth0.dashboardUri;
+            var tdId = depth0.url ? ' id=\"'+depth0.url+'\"' : "";
+            buffer += escapeExpression(stack1) + "\">\n		<td class=\"dashboardUri\"" + tdId + "><a href=\"\">";
+            stack1 = depth0.dashboardSlug ? depth0.dashboardSlug : depth0.dashboardUri ? depth0.dashboardUri : "";
             stack1 = typeof stack1 === functionType ? stack1() : stack1;
             buffer += escapeExpression(stack1) + "</td>\n		<td class=\"name\">";
             stack1 = depth0.name;

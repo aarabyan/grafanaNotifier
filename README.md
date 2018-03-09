@@ -17,6 +17,9 @@ A sound notification is configurable.
 
 Chrome Web Store: https://chrome.google.com/webstore/detail/zabbix-notifier/ikeijbmpddnkaeejokgifioccbcijjfo
 
+ChangeLog:
+- 1.1 - Dashboard links are broken for grafana version 5.x
+
 Contributor:
 - Aram Arabyan
 

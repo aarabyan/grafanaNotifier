@@ -102,7 +102,10 @@ App.GrafanaStatus = Ember.Object.extend({
                 'evalDate': value.evalDate,
                 'evalData': value.evalData,
                 'executionError': value.executionError,
-                'dashboardUri': value.dashboardUri
+                'dashboardUri': value.dashboardUri,
+                'dashboardUid': value.dashboardUid,
+                'dashboardSlug': value.dashboardSlug,
+                'url': value.url
             };
             alertList.push(item);
         });
