@@ -3,7 +3,7 @@ App.GrafanaService = Ember.Object.extend({
     connect: function (baseUrl, password, cb) {
         var me = this;
 
-        var apiUrl = baseUrl + '/api/alerts';
+        var apiUrl = baseUrl + 'api/alerts';
 
         me.jqgrafana = new $.jqgrafana({
             url: apiUrl,                  // URL of Grafana API
