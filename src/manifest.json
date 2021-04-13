@@ -20,6 +20,8 @@
 	},
 	
 	"permissions": [
-		"notifications"
+		"notifications",
+		"https://*/",
+		"http://*/"	
 	]
 }

@@ -28,6 +28,13 @@ function createAjaxOption(params, success, error, complete) {
         cache: false,
         processData: false,
         timeout: options.timeout,
+        headers: {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "*",
+            "Access-Control-Allow-Methods":"GET,HEAD,OPTIONS,POST,PUT, DELETE",
+            "Access-Control-Allow-Headers":"Origin, X-Requested-With, Content-Type, Accept, x-client-key, x-client-token, x-client-secret, Authorization"   
+            
+        },
         url: options.url,
         success: function(response, status) {
             // resuest error
